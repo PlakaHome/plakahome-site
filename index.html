@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PLAKA | Stainless Steel Cutting &amp; Prep Board</title>
+  <meta name="description" content="PLAKA Stainless Steel Cutting & Prep Board with Lip & Juice Groove. Food-grade 304 stainless steel, non-porous, microplastics free and dishwasher safe. Large 19.7 x 15.7 in.">
+  <link rel="canonical" href="https://plakahome.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://plakahome.com/">
+  <meta property="og:title" content="PLAKA | A Better Surface for Everyday Prep">
+  <meta property="og:description" content="Stainless steel cutting & prep board with counter lip and juice groove. Non-porous, microplastics free, dishwasher safe.">
+  <meta property="og:image" content="https://plakahome.com/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#F7F2EC">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <style>
+    :root { --page: #F7F2EC; --ink: #1E1E1E; --card: #F7F1EB; --star: #F4BD38; --foot: #DBD4CA; }
+    * { box-sizing: border-box; }
+    html { background: var(--page); }
+    body { margin: 0; background: var(--page); color: var(--ink); font-family: "DM Sans", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .page { max-width: 1920px; margin: 0 auto; background: var(--page); }
+
+    /* Image blocks and their clickable areas */
+    .blk { position: relative; }
+    .blk img { display: block; width: 100%; height: auto; }
+    .hs { position: absolute; display: block; border-radius: 10px; -webkit-tap-highlight-color: transparent; }
+    .hs:focus-visible, .rv-arrow:focus-visible, .rv-track:focus-visible { outline: 3px solid #B5652A; outline-offset: 3px; }
+    .hs.m { display: none; }
+
+    /* Reviews carousel (coded so it stays sharp and easy to update) */
+    .reviews { container-type: inline-size; position: relative;
+      background: #F9F2EC image-set(url("img/d06-1440.webp") 1x, url("img/d06-2880.webp") 2x) top center / 100% auto no-repeat; }
+    .rv-inner { padding: 13.8cqw 0 6.2cqw; min-height: 52.08cqw; }
+    .rv-wrap { position: relative; margin: 0 9.8cqw; }
+    .rv-track { position: relative; display: flex; gap: 2.6cqw; overflow-x: auto; scroll-snap-type: x mandatory;
+      scroll-behavior: smooth; scrollbar-width: none; overscroll-behavior-x: contain; }
+    .rv-track::-webkit-scrollbar { display: none; }
+    .review { flex: 0 0 calc((100% - 5.2cqw) / 3); scroll-snap-align: start; display: flex; flex-direction: column;
+      min-height: 32.1cqw; padding: 3.7cqw 3.1cqw 3cqw; background: var(--card); border-radius: 2.2cqw;
+      font-size: 1.16cqw; line-height: 1.45; }
+    .review p { margin: 0 0 1.25em; }
+    .stars { color: var(--star); font-size: 2.15cqw; letter-spacing: .08em; line-height: 1; margin-bottom: 1.5cqw; }
+    .review .who { margin: auto 0 0; padding-top: .4em; }
+    .rv-arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 2.4cqw; height: 3.6cqw; padding: 0;
+      border: 0; background: none; cursor: pointer; color: #111; }
+    .rv-arrow svg { width: 100%; height: 100%; fill: currentColor; }
+    .rv-arrow.prev { left: -4.2cqw; }
+    .rv-arrow.next { right: -4.2cqw; }
+    .rv-arrow:disabled { opacity: .2; cursor: default; }
+    .reviews.fits .rv-arrow { visibility: hidden; }
+    .rv-dots { display: none; }
+
+
+    @media (max-width: 1023px) {
+      .page { max-width: 560px; }
+      .hs.d { display: none; }
+      .hs.m { display: block; }
+      .reviews { background: #E6DFD5 url("img/m06.webp") top center / 100% auto no-repeat; }
+      .rv-inner { padding: 25cqw 0 9cqw; min-height: 128.2cqw; }
+      .rv-wrap { margin: 0 15cqw; }
+      .review { flex: 0 0 100%; scroll-snap-align: center; min-height: 0; padding: 7.5cqw 6.5cqw 7cqw;
+        border-radius: 5.5cqw; font-size: 4.05cqw; }
+      .stars { font-size: 6.4cqw; margin-bottom: 5cqw; }
+      .rv-arrow { width: 4.8cqw; height: 7.4cqw; }
+      .rv-arrow.prev { left: -7.4cqw; }
+      .rv-arrow.next { right: -7.4cqw; }
+      .rv-dots { display: flex; justify-content: center; gap: 2.6cqw; margin-top: 6cqw; }
+      .rv-dots button { width: 2.4cqw; height: 2.4cqw; padding: 0; border: 0; border-radius: 50%; background: #1E1E1E; opacity: .22; cursor: pointer; }
+      .rv-dots button[aria-current="true"] { opacity: .85; }
+
+    }
+    @media (prefers-reduced-motion: reduce) { .rv-track { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1 class="sr">PLAKA Stainless Steel Cutting &amp; Prep Board with Lip &amp; Juice Groove</h1>
+    <section class="blk" id="b01">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m01.webp" width="780" height="1500">
+        <img src="img/d01-1440.webp" srcset="img/d01-1440.webp 1440w, img/d01-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1340" fetchpriority="high"
+             alt="PLAKA. A Better Surface for Everyday Prep. A stainless steel board with fresh figs on a kitchen counter.">
+      </picture>
+      <a class="hs d" data-link="email" aria-label="Email PLAKA" style="left:57.639%;top:1.119%;width:15.104%;height:5.000%"></a>
+      <a class="hs d" data-link="amazon" aria-label="PLAKA on Amazon" style="left:79.444%;top:1.119%;width:2.118%;height:4.851%"></a>
+      <a class="hs d" data-link="instagram" aria-label="PLAKA on Instagram" style="left:82.639%;top:1.119%;width:2.188%;height:4.851%"></a>
+      <a class="hs d" data-link="facebook" aria-label="PLAKA on Facebook" style="left:85.868%;top:1.119%;width:2.188%;height:4.851%"></a>
+      <a class="hs d" data-link="tiktok" aria-label="PLAKA on TikTok" style="left:89.097%;top:1.119%;width:2.257%;height:5.000%"></a>
+      <a class="hs m" data-link="amazon" aria-label="PLAKA on Amazon" style="left:51.667%;top:1.067%;width:8.590%;height:4.667%"></a>
+      <a class="hs m" data-link="instagram" aria-label="PLAKA on Instagram" style="left:63.205%;top:1.067%;width:8.846%;height:4.667%"></a>
+      <a class="hs m" data-link="facebook" aria-label="PLAKA on Facebook" style="left:75.000%;top:1.067%;width:8.718%;height:4.667%"></a>
+      <a class="hs m" data-link="tiktok" aria-label="PLAKA on TikTok" style="left:86.667%;top:1.067%;width:8.974%;height:4.800%"></a>
+    </section>
+    <section class="blk" id="b02">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m02.webp" width="780" height="1000">
+        <img src="img/d02-1440.webp" srcset="img/d02-1440.webp 1440w, img/d02-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1300" loading="lazy" decoding="async"
+             alt="PLAKA Stainless Steel Cutting &amp; Prep Board with Lip &amp; Juice Groove, shown with its box and non-slip mat. Cutting, prep, pastry and kneading board. Large: 19.7 x 15.7 inches / 50 x 40 cm. Food-grade stainless steel 304. Microplastics free, non toxic. Dishwasher safe. Rust resistant.">
+      </picture>
+      <a class="hs d" data-link="amazon" aria-label="Buy on Amazon" style="left:54.514%;top:66.154%;width:11.806%;height:17.308%"></a>
+      <a class="hs m" data-link="amazon" aria-label="Buy on Amazon" style="left:36.923%;top:79.000%;width:26.154%;height:14.500%"></a>
+    </section>
+    <section class="blk" id="b03">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m03.webp" width="780" height="1400">
+        <img src="img/d03-1440.webp" srcset="img/d03-1440.webp 1440w, img/d03-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1300" loading="lazy" decoding="async"
+             alt="What You Prep On Matters As Much As What You Eat. Mindful eating begins long before food reaches your plate. Crafted from food-grade 304 stainless steel, PLAKA&#x27;s board offers a non-porous, hygienic surface that doesn&#x27;t absorb moisture, odors or food residue, and unlike plastic boards, it won&#x27;t shed microplastics into your food.">
+      </picture>
+
+
+    </section>
+    <section class="blk" id="b04">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m04.webp" width="780" height="2100">
+        <img src="img/d04-1440.webp" srcset="img/d04-1440.webp 1440w, img/d04-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="2100" loading="lazy" decoding="async"
+             alt="The Hidden Problem: What Common Boards Leave Behind. Wood is porous: it soaks up juices, odors and stains, needs oiling and hand washing, and can develop mold. Bamboo boards are thin strips glued together, often with formaldehyde-based resins. Plastic boards shed microplastics into your food, trap residue and stains, and need frequent replacing.">
+      </picture>
+
+
+    </section>
+    <section class="blk" id="b05">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m05.webp" width="780" height="1600">
+        <img src="img/d05-1440.webp" srcset="img/d05-1440.webp 1440w, img/d05-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1500" loading="lazy" decoding="async"
+             alt="Why Stainless Steel Wins. Nothing Added. Nothing Held Back. A non-porous surface that doesn&#x27;t trap food residue or absorb juices, odors or stains, sheds no particles, cleans with a quick rinse or the dishwasher, and is recyclable. Food grade, hygienic and non-porous, no plastic shedding, no odor absorption, easy care, built to last.">
+      </picture>
+
+
+    </section>
+    <section class="reviews" id="reviews" aria-labelledby="reviews-title">
+      <h2 id="reviews-title" class="sr">Real Kitchens. Real Experiences. In Their Own Words.</h2>
+      <div class="rv-inner">
+      <div class="rv-wrap">
+        <button class="rv-arrow prev" type="button" aria-label="Previous reviews"><svg viewBox="0 0 40 60" aria-hidden="true"><path d="M38 2 2 30l36 28-10-28z"/></svg></button>
+        <div class="rv-track" tabindex="0" aria-label="Customer reviews">
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>I didn&#x27;t realize how much I needed a bigger board until I got this one. I can chop veggies, prep meat, and still have room for everything else without moving things around constantly.</p>
+            <p>The lip helps keep it in place and the groove is great when I&#x27;m cutting juicy fruits or anything messy.</p>
+            <p>Very happy with this one.</p>
+          <p class="who">Gloria L.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>I&#x27;ve been slowly replacing plastic items in my kitchen and finally decided to replace our cutting board.</p>
+            <p>I like this one a lot. It&#x27;s bigger than I expected, which is great because I cook for my family almost every day. I just leave it on the counter now because I use it all the time.</p>
+          <p class="who">Paula S.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>I was using a wooden cutting board, but honestly, I got tired of all the maintenance. The stains, the smells, the occasional scrubbing with salt, the oiling...</p>
+            <p>Finally, I switched to stainless steel and wish I&#x27;d done it sooner! So easy to clean, no special care, and it looks really great on my counter.</p>
+          <p class="who">Matt R.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>Bought this mostly for prepping fish (I hate fish smell on cutting boards), but I&#x27;ve ended up using it for all sorts of things. It&#x27;s also great for homemade bread and pizza dough.</p>
+            <p>And the clean up is the easiest. Everyone should have one of these.</p>
+          <p class="who">Lucia M.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>First off, this is a really nice looking cutting board. I like the brushed finish too.</p>
+            <p>I&#x27;ve been using it almost daily and so far so good. The little groove around the edge is a nice bonus.</p>
+            <p>Would definitely recommend.</p>
+          <p class="who">Nadia B.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>My sister loves to cook so I got her this for her housewarming party. It came in a nice box and the board looked even better in person. Now I kind of want one for myself.</p>
+          <p class="who">Joanne W.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>It wasn&#x27;t easy to get a stainless steel board with juice groove in that size. This one does a good job catching the liquid, and there&#x27;s enough room for a whole rack of ribs without everything hanging off the sides. The edge lip is a nice feature too.</p>
+            <p>Really happy with it so far.</p>
+          <p class="who">Bruno S.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>Every Sunday I prep food for the week and I was looking for a large kitchen board. This one has made things a lot easier. I can cut up a bunch of vegetables, portion out chicken, and still have space to work.</p>
+            <p>Cleanup is quick, which is a big deal when you&#x27;ve been cooking all afternoon.</p>
+          <p class="who">Beatrice G.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>Wasn&#x27;t sure about spending more on a cutting board, but this one feels like something I&#x27;ll have for years. No wood to crack or plastic to replace once it gets all cut up.</p>
+            <p>The surface does get knife marks, but that&#x27;s just part of using it. Overall, a good purchase.</p>
+          <p class="who">Rebecca T.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>My baby just started eating solids, and I&#x27;ve become more concerned about what our kitchen utensils might be releasing into her food.</p>
+            <p>Switching to stainless steel has been great! I use this board every day to prep her veggies, fruits, and homemade purees. It&#x27;s easy to clean, and I feel so much better knowing I&#x27;m not preparing her food on worn-out plastic boards.</p>
+          <p class="who">Kristie L.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>I&#x27;ve become pretty careful about what I eat and what I use in my kitchen because of my autoimmune condition.</p>
+            <p>For me, switching to a stainless steel cutting board is one less thing to worry about when I&#x27;m preparing meals.</p>
+          <p class="who">Emma C.</p>
+        </article>
+        <article class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>I&#x27;ve always had wooden cutting boards but got tired of all the cleaning and oiling. This is so much easier, no special maintenance. I use it, wash it, dry it, done.</p>
+            <p>It does get some knife marks, but that&#x27;s expected with stainless steel. Honestly, I wish I&#x27;d switched sooner.</p>
+          <p class="who">Carol A.</p>
+        </article>
+        </div>
+        <button class="rv-arrow next" type="button" aria-label="Next reviews"><svg viewBox="0 0 40 60" aria-hidden="true"><path d="M2 2l36 28L2 58l10-28z"/></svg></button>
+      </div>
+      <div class="rv-dots"></div>
+      </div>
+    </section>
+    <section class="blk" id="b07">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m07.webp" width="780" height="1600">
+        <img src="img/d07-1440.webp" srcset="img/d07-1440.webp 1440w, img/d07-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1500" loading="lazy" decoding="async"
+             alt="Made for More Than Chopping. Everyday Prep, Made Better. The PLAKA board with fresh salsa ingredients and with bread dough. PLAKA Stainless Steel Cutting &amp; Prep Board with Lip &amp; Juice Groove, shown with its box and non-slip mat. Cutting, prep, pastry and kneading board. Large: 19.7 x 15.7 inches / 50 x 40 cm. Food-grade stainless steel 304. Microplastics free, non toxic. Dishwasher safe. Rust resistant.">
+      </picture>
+      <a class="hs d" data-link="amazon" aria-label="Buy on Amazon" style="left:15.799%;top:76.333%;width:11.979%;height:15.400%"></a>
+      <a class="hs m" data-link="amazon" aria-label="Buy on Amazon" style="left:37.308%;top:88.250%;width:26.026%;height:9.062%"></a>
+    </section>
+    <section class="blk" id="b08">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m08.webp" width="780" height="1000">
+        <img src="img/d08-1440.webp" srcset="img/d08-1440.webp 1440w, img/d08-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1300" loading="lazy" decoding="async"
+             alt="This Is What Real Prep Looks Like. More space to prep, less mess to clean. Sliced steak on the board: the built-in juice groove keeps juices on the board instead of spilling onto the counter.">
+      </picture>
+
+
+    </section>
+    <section class="blk" id="b09">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m09.webp" width="780" height="1400">
+        <img src="img/d09-1440.webp" srcset="img/d09-1440.webp 1440w, img/d09-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1500" loading="lazy" decoding="async"
+             alt="One Board. Endless Possibilities. Whatever&#x27;s on the menu, start here: meat, poultry and fish; vegetables and fruits; season and marinate; pastry and dough.">
+      </picture>
+
+
+    </section>
+    <section class="blk" id="b10">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m10.webp" width="780" height="1123">
+        <img src="img/d10-1440.webp" srcset="img/d10-1440.webp 1440w, img/d10-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1500" loading="lazy" decoding="async"
+             alt="Thoughtfully Engineered. The non-slip mat keeps your board steady. A generous prep surface for everyday family meals. The counter lip hooks securely over the countertop edge. The juice groove keeps your countertop cleaner.">
+      </picture>
+
+
+    </section>
+    <section class="blk" id="b11">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m11.webp" width="780" height="1123">
+        <img src="img/d11-1440.webp" srcset="img/d11-1440.webp 1440w, img/d11-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1500" loading="lazy" decoding="async"
+             alt="Less Maintenance. More Living. One less thing to worry about: quick rinse, wipe clean, dishwasher safe.">
+      </picture>
+
+
+    </section>
+    <section class="blk" id="b12">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="img/m12.webp" width="780" height="1100">
+        <img src="img/d12-1440.webp" srcset="img/d12-1440.webp 1440w, img/d12-2880.webp 2880w"
+             sizes="(max-width: 1920px) 100vw, 1920px" width="2880" height="1460" loading="lazy" decoding="async"
+             alt="PLAKA Stainless Steel Cutting &amp; Prep Board with Lip &amp; Juice Groove, shown with its box and non-slip mat. Cutting, prep, pastry and kneading board. Large: 19.7 x 15.7 inches / 50 x 40 cm. Food-grade stainless steel 304. Microplastics free, non toxic. Dishwasher safe. Rust resistant.">
+      </picture>
+      <a class="hs d" data-link="amazon" aria-label="Buy on Amazon" style="left:54.514%;top:58.904%;width:11.806%;height:15.411%"></a>
+      <a class="hs d" data-link="email" aria-label="Email PLAKA" style="left:8.333%;top:93.151%;width:18.750%;height:5.068%"></a>
+      <a class="hs d" data-link="amazon" aria-label="PLAKA on Amazon" style="left:77.500%;top:93.288%;width:2.326%;height:4.932%"></a>
+      <a class="hs d" data-link="instagram" aria-label="PLAKA on Instagram" style="left:81.389%;top:93.288%;width:2.361%;height:4.932%"></a>
+      <a class="hs d" data-link="facebook" aria-label="PLAKA on Facebook" style="left:85.278%;top:93.288%;width:2.361%;height:4.932%"></a>
+      <a class="hs d" data-link="tiktok" aria-label="PLAKA on TikTok" style="left:89.201%;top:93.288%;width:2.431%;height:4.932%"></a>
+      <a class="hs m" data-link="amazon" aria-label="Buy on Amazon" style="left:36.923%;top:71.818%;width:26.154%;height:13.182%"></a>
+      <a class="hs m" data-link="email" aria-label="Email PLAKA" style="left:3.846%;top:92.273%;width:27.564%;height:6.364%"></a>
+      <a class="hs m" data-link="amazon" aria-label="PLAKA on Amazon" style="left:68.974%;top:91.818%;width:6.923%;height:7.273%"></a>
+      <a class="hs m" data-link="instagram" aria-label="PLAKA on Instagram" style="left:75.897%;top:91.818%;width:7.179%;height:7.273%"></a>
+      <a class="hs m" data-link="facebook" aria-label="PLAKA on Facebook" style="left:83.077%;top:91.818%;width:7.179%;height:7.273%"></a>
+      <a class="hs m" data-link="tiktok" aria-label="PLAKA on TikTok" style="left:90.256%;top:91.818%;width:7.436%;height:7.273%"></a>
+    </section>
+  </main>
+
+  <script>
+    /* ===== EDIT YOUR LINKS HERE =====
+       Replace the Amazon link with your Amazon Attribution link when you have it.
+       Paste your social profile links between the quotes. Empty ones stay hidden/unclickable. */
+    const LINKS = {
+      amazon:    "https://www.amazon.com/dp/B0H85CMXNN",
+      email:     "mailto:hello@plakahome.com",
+      instagram: "https://www.instagram.com/plakahome/",
+      facebook:  "https://www.facebook.com/plakahome/",
+      tiktok:    "https://www.tiktok.com/@plaka_home"
+    };
+
+    document.querySelectorAll("[data-link]").forEach(function (a) {
+      const url = LINKS[a.dataset.link];
+      if (!url) { a.hidden = true; a.style.display = "none"; return; }
+      a.href = url;
+      if (/^https?:/.test(url)) { a.target = "_blank"; a.rel = "noopener"; }
+    });
+
+    (function () {
+      const sec = document.querySelector(".reviews");
+      if (!sec) return;
+
+      const track = sec.querySelector(".rv-track");
+      const cards = Array.from(track.querySelectorAll(".review"));
+      const prev = sec.querySelector(".prev"), next = sec.querySelector(".next");
+      const dotsBox = sec.querySelector(".rv-dots");
+      const dots = cards.map(function (card, i) {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.setAttribute("aria-label", "Show review " + (i + 1));
+        b.addEventListener("click", function () { track.scrollTo({ left: card.offsetLeft }); });
+        dotsBox.appendChild(b);
+        return b;
+      });
+      const step = function () { return track.clientWidth + parseFloat(getComputedStyle(track).columnGap || 0); };
+      prev.addEventListener("click", function () { track.scrollBy({ left: -step() }); });
+      next.addEventListener("click", function () { track.scrollBy({ left: step() }); });
+
+      function update() {
+        const max = track.scrollWidth - track.clientWidth;
+        sec.classList.toggle("fits", max <= 2);
+        prev.disabled = track.scrollLeft <= 2;
+        next.disabled = track.scrollLeft >= max - 2;
+        let active = 0, best = Infinity;
+        cards.forEach(function (c, i) {
+          const d = Math.abs(c.offsetLeft - track.scrollLeft);
+          if (d < best) { best = d; active = i; }
+        });
+        dots.forEach(function (d, i) { d.setAttribute("aria-current", i === active ? "true" : "false"); });
+      }
+      track.addEventListener("scroll", function () { window.requestAnimationFrame(update); }, { passive: true });
+      window.addEventListener("resize", update);
+      update();
+    })();
+  </script>
+</body>
+</html>
